@@ -1,0 +1,333 @@
+{
+  "bagh_bhairab": {
+    "name": "Bagh Bhairab Temple",
+    "location": "Kirtipur, Kathmandu Valley",
+    "type": "Hindu Temple",
+    "description": "Bagh Bhairab Temple is one of the most important religious and cultural landmarks of Kirtipur. The temple is dedicated to Bhairab, a fierce manifestation of Lord Shiva, and holds special significance among the local Newar community. Architecturally, the temple reflects traditional Newar pagoda-style design, with carved wooden elements, tiered roofing, and a sacred courtyard environment. It is also associated with the historical identity of Kirtipur, which has played an important role in the political and cultural history of Kathmandu Valley. The temple remains an active place of worship and is visited by devotees during festivals, rituals, and local cultural events.",
+    "recommended": ["maitidevi", "pashupatinath", "budhanilkantha"],
+    "recognition_enabled": true
+  },
+
+  "boudhanath": {
+    "name": "Boudhanath Stupa",
+    "location": "Boudha, Kathmandu",
+    "type": "Buddhist Stupa",
+    "description": "Boudhanath Stupa is one of the largest and most significant Buddhist stupas in Nepal. It is a major centre of Tibetan Buddhism and attracts pilgrims, monks, tourists, and local worshippers throughout the year. The massive white dome, golden spire, Buddha eyes, prayer flags, and surrounding prayer wheels create a highly recognizable spiritual landscape. Boudhanath is also part of the Kathmandu Valley UNESCO World Heritage Site. The circular layout encourages circumambulation, where devotees walk clockwise around the stupa while spinning prayer wheels and chanting mantras. The site represents both religious devotion and the living Buddhist culture of Kathmandu.",
+    "recommended": ["swayambhunath", "pashupatinath", "budhanilkantha"],
+    "recognition_enabled": true
+  },
+
+  "swayambhunath": {
+    "name": "Swayambhunath Stupa",
+    "location": "Kathmandu",
+    "type": "Buddhist Stupa",
+    "description": "Swayambhunath Stupa, also known as the Monkey Temple, is an ancient Buddhist heritage site located on a hilltop overlooking Kathmandu Valley. The site is known for its white dome, golden spire, Buddha eyes, prayer flags, shrines, chaityas, and panoramic views of the city. It is considered one of the oldest religious sites in the valley and is important to both Buddhist and Hindu communities. Swayambhunath forms part of the Kathmandu Valley UNESCO World Heritage Site. Its hilltop location, symbolic architecture, and surrounding shrines make it one of Nepal's most iconic religious landmarks.",
+    "recommended": ["boudhanath", "pashupatinath", "kathmandu_durbar"],
+    "recognition_enabled": true
+  },
+
+  "pashupatinath": {
+    "name": "Pashupatinath Temple",
+    "location": "Kathmandu",
+    "type": "Hindu Temple",
+    "description": "Pashupatinath Temple is one of the most sacred Hindu temples dedicated to Lord Shiva. It is located on the banks of the Bagmati River and is a major pilgrimage destination for Hindus from Nepal, India, and beyond. The main temple is known for its pagoda-style architecture, gilded roof, silver doors, sacred courtyards, and surrounding shrines. Pashupatinath is also part of the Kathmandu Valley UNESCO World Heritage Site. The temple area is deeply connected with rituals, cremation ceremonies, festivals such as Maha Shivaratri, and the spiritual life of Kathmandu. It represents both religious devotion and Nepal's living cultural heritage.",
+    "recommended": ["boudhanath", "budhanilkantha", "maitidevi"],
+    "recognition_enabled": true
+  },
+
+  "kathmandu_durbar": {
+    "name": "Kathmandu Durbar Square",
+    "location": "Basantapur, Kathmandu",
+    "type": "Durbar Square",
+    "description": "Kathmandu Durbar Square is a historic royal palace complex located in the heart of old Kathmandu. It contains palaces, courtyards, temples, statues, and traditional Newar architectural structures that reflect the political and cultural history of the Malla and Shah periods. Important elements of the square include Hanuman Dhoka Palace, Taleju Temple, Kumari Ghar, courtyards, carved windows, and pagoda-style temples. The site is part of the Kathmandu Valley UNESCO World Heritage Site. It has historically served as a royal, religious, and ceremonial centre and remains one of the most important heritage zones in Nepal.",
+    "recommended": ["patan_durbar", "bhaktapur_durbar", "swayambhunath"],
+    "recognition_enabled": true
+  },
+
+  "patan_durbar": {
+    "name": "Patan Durbar Square",
+    "location": "Lalitpur",
+    "type": "Durbar Square",
+    "description": "Patan Durbar Square is one of the finest examples of Newar architecture in Kathmandu Valley. Located in Lalitpur, the square is known for its royal palace complex, courtyards, stone temples, bronze statues, wood carvings, and artistic urban layout. Major features include Krishna Mandir, Mul Chowk, Sundari Chowk, the Patan Museum, and several pagoda and shikhara-style temples. Patan has historically been associated with craftsmanship, metalwork, sculpture, and Buddhist-Hindu cultural interaction. The site is part of the Kathmandu Valley UNESCO World Heritage Site and remains a major destination for cultural tourism and heritage study.",
+    "recommended": ["kathmandu_durbar", "bhaktapur_durbar", "bagh_bhairab"],
+    "recognition_enabled": true
+  },
+
+  "bhaktapur_durbar": {
+    "name": "Bhaktapur Durbar Square",
+    "location": "Bhaktapur",
+    "type": "Durbar Square",
+    "description": "Bhaktapur Durbar Square is a major cultural heritage site known for its preserved Newar urban character, traditional brick architecture, temples, courtyards, and palace structures. The square reflects the artistic and political history of the Malla period and includes important monuments such as the 55-Window Palace, Golden Gate, stone temples, statues, and historic courtyards. Bhaktapur is famous for its traditional crafts, festivals, pottery, and living cultural practices. The square is part of the Kathmandu Valley UNESCO World Heritage Site and is widely recognized for its strong connection between architecture, community life, and cultural identity.",
+    "recommended": ["patan_durbar", "kathmandu_durbar", "dharahara"],
+    "recognition_enabled": true
+  },
+
+  "maitidevi": {
+    "name": "Maitidevi Temple",
+    "location": "Maitidevi, Kathmandu",
+    "type": "Hindu Temple",
+    "description": "Maitidevi Temple is a local Hindu religious site located in the urban Maitidevi area of Kathmandu. The temple is associated with the worship of the goddess and remains an active place for daily prayers, offerings, and community rituals. Unlike the larger UNESCO-listed monuments, Maitidevi Temple represents the everyday religious culture of Kathmandu, where local residents maintain regular devotional practices. Its urban setting, temple courtyard, statues, bells, and ritual atmosphere make it an important neighbourhood-level heritage site. Including Maitidevi in this project helps represent both major tourist landmarks and smaller community-based sacred spaces.",
+    "recommended": ["pashupatinath", "bagh_bhairab", "budhanilkantha"],
+    "recognition_enabled": true
+  },
+
+  "budhanilkantha": {
+    "name": "Budhanilkantha Temple",
+    "location": "Budhanilkantha, Kathmandu",
+    "type": "Hindu Temple",
+    "description": "Budhanilkantha Temple is famous for its large reclining statue of Lord Vishnu, also known as Jal Narayan. The statue lies in a sacred pond and depicts Vishnu reclining on the coils of the cosmic serpent Shesha. The temple is an important Hindu pilgrimage site and attracts devotees who come for worship, offerings, and rituals. Its unique iconography makes it visually distinct from many other temple sites in Kathmandu Valley. The water setting, stone sculpture, flower offerings, and surrounding temple structures create a sacred environment that combines religious symbolism, artistic heritage, and local devotional practice.",
+    "recommended": ["pashupatinath", "maitidevi", "boudhanath"],
+    "recognition_enabled": true
+  },
+
+  "dharahara": {
+    "name": "Dharahara Tower",
+    "location": "Sundhara, Kathmandu",
+    "type": "Historic Tower",
+    "description": "Dharahara Tower, also known as Bhimsen Tower, is one of Kathmandu's most recognizable urban landmarks. Originally built in the nineteenth century, it became a symbolic structure in the city skyline. The tower was severely damaged during the 2015 earthquake and was later reconstructed as part of Nepal's heritage recovery efforts. The modern Dharahara complex combines historic symbolism with contemporary urban design and public space. Its tall white cylindrical form, observation structure, and central location in Sundhara make it visually different from the religious temples and stupas of Kathmandu Valley. In this project, Dharahara represents urban heritage and post-earthquake reconstruction.",
+    "recommended": ["kathmandu_durbar", "bhaktapur_durbar", "patan_durbar"],
+    "recognition_enabled": true
+  },
+  "narayanhiti_palace": {
+  "name": "Narayanhiti Palace Museum",
+  "location": "Kathmandu",
+  "type": "Museum",
+  "recognition_enabled": false,
+  "description": "Narayanhiti Palace Museum was formerly the royal palace of Nepal and now serves as a museum showcasing royal history, architecture, and artifacts related to Nepal's monarchy.",
+  "recommended": ["garden_of_dreams", "rani_pokhari", "kathmandu_durbar"]
+},
+
+"rani_pokhari": {
+  "name": "Rani Pokhari",
+  "location": "Kathmandu",
+  "type": "Historic Pond",
+  "recognition_enabled": false,
+  "description": "Rani Pokhari is a historic artificial pond built in the seventeenth century and remains one of Kathmandu's most recognizable urban heritage landmarks.",
+  "recommended": ["garden_of_dreams", "narayanhiti_palace", "kathmandu_durbar"]
+},
+
+"kasthamandap": {
+  "name": "Kasthamandap",
+  "location": "Kathmandu Durbar Square",
+  "type": "Historic Pavilion",
+  "recognition_enabled": false,
+  "description": "Kasthamandap is a traditional wooden pavilion that historically gave Kathmandu its name and represents Newar architectural craftsmanship.",
+  "recommended": ["kathmandu_durbar", "kumari_ghar", "taleju_temple"]
+},
+
+"kumari_ghar": {
+  "name": "Kumari Ghar",
+  "location": "Kathmandu Durbar Square",
+  "type": "Living Goddess Residence",
+  "recognition_enabled": false,
+  "description": "Kumari Ghar is the residence of the Living Goddess Kumari and represents a unique religious tradition practiced in Kathmandu Valley.",
+  "recommended": ["kathmandu_durbar", "kasthamandap", "taleju_temple"]
+},
+
+"taleju_temple": {
+  "name": "Taleju Temple",
+  "location": "Kathmandu Durbar Square",
+  "type": "Hindu Temple",
+  "recognition_enabled": false,
+  "description": "Taleju Temple is one of the most important royal temples of Kathmandu and is associated with the worship of Goddess Taleju.",
+  "recommended": ["kathmandu_durbar", "kumari_ghar", "kasthamandap"]
+},
+
+"guhyeshwari_temple": {
+  "name": "Guhyeshwari Temple",
+  "location": "Kathmandu",
+  "type": "Hindu Temple",
+  "recognition_enabled": false,
+  "description": "Guhyeshwari Temple is an important Shakti Peetha site located near Pashupatinath and is deeply connected with Hindu pilgrimage traditions.",
+  "recommended": ["pashupatinath", "boudhanath", "maitidevi"]
+},
+
+"seto_machindranath": {
+  "name": "Seto Machindranath Temple",
+  "location": "Kathmandu",
+  "type": "Temple",
+  "recognition_enabled": false,
+  "description": "Seto Machindranath Temple is dedicated to the deity Machindranath and is closely associated with religious festivals and local traditions.",
+  "recommended": ["akash_bhairav", "indrachowk", "kathmandu_durbar"]
+},
+
+"akash_bhairav": {
+  "name": "Akash Bhairav Temple",
+  "location": "Indra Chowk, Kathmandu",
+  "type": "Temple",
+  "recognition_enabled": false,
+  "description": "Akash Bhairav Temple is dedicated to Bhairav and is a major religious landmark within Kathmandu's traditional market area.",
+  "recommended": ["seto_machindranath", "indrachowk", "kathmandu_durbar"]
+},
+
+"indrachowk": {
+  "name": "Indra Chowk",
+  "location": "Kathmandu",
+  "type": "Historic Market Square",
+  "recognition_enabled": false,
+  "description": "Indra Chowk is a historic commercial and cultural hub in old Kathmandu known for its traditional markets and festivals.",
+  "recommended": ["akash_bhairav", "seto_machindranath", "kathmandu_durbar"]
+},
+
+"kirtipur_old_town": {
+  "name": "Kirtipur Old Town",
+  "location": "Kirtipur",
+  "type": "Historic Settlement",
+  "recognition_enabled": false,
+  "description": "Kirtipur Old Town preserves traditional Newar architecture, temples, courtyards, and panoramic views of Kathmandu Valley.",
+  "recommended": ["bagh_bhairab", "chobhar_gorge", "dakshinkali_temple"]
+},
+
+"chobhar_gorge": {
+  "name": "Chobhar Gorge",
+  "location": "Kathmandu",
+  "type": "Natural Heritage Site",
+  "recognition_enabled": false,
+  "description": "Chobhar Gorge is a culturally significant natural landmark associated with legends regarding the formation of Kathmandu Valley.",
+  "recommended": ["kirtipur_old_town", "dakshinkali_temple", "bagh_bhairab"]
+},
+
+"dakshinkali_temple": {
+  "name": "Dakshinkali Temple",
+  "location": "Pharping",
+  "type": "Hindu Temple",
+  "recognition_enabled": false,
+  "description": "Dakshinkali Temple is one of Nepal's most important temples dedicated to Goddess Kali and attracts large numbers of devotees.",
+  "recommended": ["pharping_monastery", "chobhar_gorge", "kirtipur_old_town"]
+},
+
+"kopan_monastery": {
+  "name": "Kopan Monastery",
+  "location": "Kathmandu",
+  "type": "Buddhist Monastery",
+  "recognition_enabled": false,
+  "description": "Kopan Monastery is a well-known Tibetan Buddhist monastery that attracts practitioners and visitors from around the world.",
+  "recommended": ["boudhanath", "swayambhunath", "namo_buddha"]
+},
+
+"rato_machindranath": {
+  "name": "Rato Machindranath Temple",
+  "location": "Patan",
+  "type": "Temple",
+  "recognition_enabled": false,
+  "description": "Rato Machindranath Temple is associated with one of Nepal's most important chariot festivals and cultural traditions.",
+  "recommended": ["patan_durbar", "hiranya_varna_mahavihar", "mahabouddha_temple"]
+},
+
+"hiranya_varna_mahavihar": {
+  "name": "Hiranya Varna Mahavihar",
+  "location": "Patan",
+  "type": "Buddhist Monastery",
+  "recognition_enabled": false,
+  "description": "Also known as the Golden Temple, this historic monastery is famous for its intricate metalwork and Buddhist heritage.",
+  "recommended": ["patan_durbar", "mahabouddha_temple", "rato_machindranath"]
+},
+
+"mahabouddha_temple": {
+  "name": "Mahabouddha Temple",
+  "location": "Patan",
+  "type": "Buddhist Temple",
+  "recognition_enabled": false,
+  "description": "Mahabouddha Temple is known for its terracotta craftsmanship and thousands of Buddha images embedded into its structure.",
+  "recommended": ["hiranya_varna_mahavihar", "patan_durbar", "rato_machindranath"]
+},
+
+"ashok_stupa_patan": {
+  "name": "Ashok Stupa",
+  "location": "Patan",
+  "type": "Buddhist Stupa",
+  "recognition_enabled": false,
+  "description": "Ashok Stupas are ancient Buddhist monuments traditionally associated with Emperor Ashoka's visit to the valley.",
+  "recommended": ["patan_durbar", "hiranya_varna_mahavihar", "mahabouddha_temple"]
+},
+
+"nyatapola_temple": {
+  "name": "Nyatapola Temple",
+  "location": "Bhaktapur",
+  "type": "Pagoda Temple",
+  "recognition_enabled": false,
+  "description": "Nyatapola Temple is Nepal's tallest traditional pagoda temple and a masterpiece of Newar architecture.",
+  "recommended": ["bhaktapur_durbar", "dattatreya_square", "pottery_square"]
+},
+
+"dattatreya_square": {
+  "name": "Dattatreya Square",
+  "location": "Bhaktapur",
+  "type": "Historic Square",
+  "recognition_enabled": false,
+  "description": "Dattatreya Square contains historic temples, monasteries, museums, and traditional Newar settlements.",
+  "recommended": ["nyatapola_temple", "bhaktapur_durbar", "pottery_square"]
+},
+
+"pottery_square": {
+  "name": "Pottery Square",
+  "location": "Bhaktapur",
+  "type": "Cultural Heritage Area",
+  "recognition_enabled": false,
+  "description": "Pottery Square showcases traditional pottery making techniques that have been preserved for generations.",
+  "recommended": ["bhaktapur_durbar", "nyatapola_temple", "dattatreya_square"]
+},
+
+"changunarayan": {
+  "name": "Changu Narayan Temple",
+  "location": "Bhaktapur",
+  "type": "Hindu Temple",
+  "recognition_enabled": false,
+  "description": "Changu Narayan is one of Nepal's oldest temples and a UNESCO World Heritage Site known for ancient inscriptions and sculptures.",
+  "recommended": ["bhaktapur_durbar", "boudhanath", "sankhu_bajrayogini"]
+},
+
+"sankhu_bajrayogini": {
+  "name": "Sankhu Bajrayogini Temple",
+  "location": "Sankhu",
+  "type": "Temple",
+  "recognition_enabled": false,
+  "description": "Bajrayogini Temple is an important pilgrimage site associated with both Buddhist and Hindu traditions.",
+  "recommended": ["changunarayan", "boudhanath", "vajrayogini_temple"]
+},
+
+"vajrayogini_temple": {
+  "name": "Vajrayogini Temple",
+  "location": "Kathmandu Valley",
+  "type": "Temple",
+  "recognition_enabled": false,
+  "description": "Vajrayogini Temple is an important sacred site associated with tantric traditions and pilgrimage routes.",
+  "recommended": ["sankhu_bajrayogini", "changunarayan", "boudhanath"]
+},
+
+"namo_buddha": {
+  "name": "Namo Buddha",
+  "location": "Kavrepalanchok",
+  "type": "Buddhist Pilgrimage Site",
+  "recognition_enabled": false,
+  "description": "Namo Buddha is one of the most important Buddhist pilgrimage destinations in Nepal and is associated with a famous Jataka tale.",
+  "recommended": ["kopan_monastery", "boudhanath", "swayambhunath"]
+},
+
+"taudaha_lake": {
+  "name": "Taudaha Lake",
+  "location": "Kathmandu",
+  "type": "Natural Heritage Site",
+  "recognition_enabled": false,
+  "description": "Taudaha Lake is a culturally significant lake associated with local legends and migratory bird habitats.",
+  "recommended": ["kirtipur_old_town", "dakshinkali_temple", "chobhar_gorge"]
+},
+
+"pharping_monastery": {
+  "name": "Pharping Monastery Area",
+  "location": "Pharping",
+  "type": "Buddhist Heritage Area",
+  "recognition_enabled": false,
+  "description": "Pharping contains important monasteries, meditation caves, and sacred sites associated with Guru Padmasambhava.",
+  "recommended": ["dakshinkali_temple", "namo_buddha", "kopan_monastery"]
+},
+
+"shobha_bhagwati": {
+  "name": "Shobha Bhagwati Temple",
+  "location": "Kathmandu",
+  "type": "Hindu Temple",
+  "recognition_enabled": false,
+  "description": "Shobha Bhagwati Temple is a historic riverside temple known for its religious significance and traditional architecture.",
+  "recommended": ["pashupatinath", "maitidevi", "budhanilkantha"]
+}
+}

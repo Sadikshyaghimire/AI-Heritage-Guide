@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f1ea;
+  color: #222;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.welcomePage,
+.authPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroCard,
+.card {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+  border-radius: 22px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.heroCard {
+  text-align: center;
+}
+
+.logo {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.smallLogo {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header h1,
+.heroCard h1,
+.card h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #7a2e1d;
+}
+
+.header p,
+.heroCard p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.input {
+  width: 100%;
+  padding: 14px;
+  margin: 8px 0;
+  border: 1px solid #d8bda4;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+.primaryButton,
+.cameraButton {
+  width: 100%;
+  padding: 16px;
+  background: #9b3d22;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.secondaryButton {
+  width: 100%;
+  padding: 14px;
+  background: #eee0d2;
+  color: #7a2e1d;
+  border: none;
+  border-radius: 14px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+.linkButton {
+  width: 100%;
+  margin-top: 14px;
+  border: none;
+  background: transparent;
+  color: #7a2e1d;
+  font-weight: bold;
+}
+
+.previewBox {
+  margin-top: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.previewBox img {
+  width: 100%;
+  display: block;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+.resultBox {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 16px;
+  background: #fff7ed;
+  border: 1px solid #e6c7a3;
+}
+
+.resultBox h2 {
+  margin-top: 0;
+  color: #7a2e1d;
+}
+
+.prediction {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid #ead8c4;
+  text-transform: capitalize;
+}
+
+.chatBox {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.chatBox input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d6b99d;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.chatBox button {
+  padding: 12px 16px;
+  background: #7a2e1d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.chatAnswer {
+  margin-top: 14px;
+  padding: 14px;
+  background: #f5eadc;
+  border-radius: 12px;
+  border: 1px solid #dfc3a4;
+}
+
+.chatAnswer p {
+  margin-bottom: 0;
+}
+
+.error {
+  margin-top: 16px;
+  color: red;
+  font-weight: bold;
+}
+
+.explorerItem {
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  background: #fff7ed;
+  border: 1px solid #e6c7a3;
+  cursor: pointer;
+}
+
+.explorerItem h3 {
+  margin: 0 0 6px 0;
+  color: #7a2e1d;
+}
+
+.explorerItem p {
+  margin: 0 0 8px 0;
+  color: #555;
+}
+
+.explorerItem span {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #ead8c4;
+  color: #7a2e1d;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.recognitionYes,
+.recognitionNo {
+  margin-top: 10px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.recognitionYes {
+  background: #d9f7df;
+  color: #17692e;
+}
+
+.recognitionNo {
+  background: #f1e3d3;
+  color: #7a2e1d;
+}

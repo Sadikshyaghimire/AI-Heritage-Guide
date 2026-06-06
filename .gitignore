@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+
+backend/uploads/
+
+dataset/
+
+OLD WORKS + Proposal/
+
+node_modules/
+
+.gitDS_Store

@@ -1,0 +1,16 @@
+                  precision    recall  f1-score   support
+
+    bagh_bhairab       0.86      1.00      0.92         6
+bhaktapur_durbar       0.83      0.83      0.83         6
+      boudhanath       1.00      0.75      0.86         4
+  budhanilkantha       1.00      1.00      1.00         4
+       dharahara       1.00      1.00      1.00         3
+kathmandu_durbar       0.80      0.80      0.80         5
+       maitidevi       1.00      1.00      1.00         6
+   pashupatinath       1.00      0.67      0.80         6
+    patan_durbar       0.83      0.83      0.83         6
+   swayambhunath       0.50      0.75      0.60         4
+
+        accuracy                           0.86        50
+       macro avg       0.88      0.86      0.86        50
+    weighted avg       0.88      0.86      0.86        50
