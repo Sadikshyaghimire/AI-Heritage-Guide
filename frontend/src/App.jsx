@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./App.css";
 
-const BASE_URL = "http://192.168.0.104:8000";
+const BASE_URL = "https://ai-heritage-guide-backend.onrender.com";
 
 const API_URL = `${BASE_URL}/predict`;
 const CHATBOT_URL = `${BASE_URL}/chatbot`;
