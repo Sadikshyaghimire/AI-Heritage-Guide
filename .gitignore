@@ -1,13 +1,7 @@
+dataset/
 venv/
+node_modules/
+backend/uploads/
 __pycache__/
 *.pyc
-
-backend/uploads/
-
-dataset/
-
-OLD WORKS + Proposal/
-
-node_modules/
-
-.gitDS_Store
+OLD WORKS + Proposal /
