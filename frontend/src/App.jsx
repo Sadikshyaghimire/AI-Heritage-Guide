@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import "./App.css";
 
-const BASE_URL = "https://ai-heritage-guide-backend.onrender.com";
+const BASE_URL = "http://127.0.0.1:8000";
 
 const API_URL = `${BASE_URL}/predict`;
 const CHATBOT_URL = `${BASE_URL}/chatbot`;
@@ -519,7 +519,6 @@ function App() {
 
         {result && !result.error && (
           <div className="resultBox">
-            <div className="arBadge">AR Heritage Overlay</div>
 
             <h2>{result.info?.name || formatName(result.predicted_landmark)}</h2>
 

@@ -13,9 +13,9 @@ RAW_DIR = Path("dataset/raw")
 AI_DIR = Path("dataset/ai_generated")
 OUTPUT_DIR = Path("dataset/final_dataset")
 
-TRAIN_RATIO = 0.8
-VAL_RATIO = 0.1
-TEST_RATIO = 0.1
+TRAIN_RATIO = 0.80
+VAL_RATIO = 0.10
+TEST_RATIO = 0.10
 
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp")
 
@@ -65,22 +65,37 @@ def collect_images(folder_path, source_type):
 # -----------------------------
 
 for cls in classes:
+
     print(f"\nProcessing: {cls}")
 
     raw_images = collect_images(RAW_DIR / cls, "raw")
     ai_images = collect_images(AI_DIR / cls, "ai")
 
-    images = raw_images + ai_images
-    random.shuffle(images)
+    random.shuffle(raw_images)
+    random.shuffle(ai_images)
 
-    total = len(images)
+    def split_images(image_list):
+        total = len(image_list)
 
-    train_count = int(total * TRAIN_RATIO)
-    val_count = int(total * VAL_RATIO)
+        train = int(total * TRAIN_RATIO)
+        val = int(total * VAL_RATIO)
 
-    train_imgs = images[:train_count]
-    val_imgs = images[train_count:train_count + val_count]
-    test_imgs = images[train_count + val_count:]
+        train_imgs = image_list[:train]
+        val_imgs = image_list[train:train + val]
+        test_imgs = image_list[train + val:]
+
+        return train_imgs, val_imgs, test_imgs
+
+    raw_train, raw_val, raw_test = split_images(raw_images)
+    ai_train, ai_val, ai_test = split_images(ai_images)
+
+    train_imgs = raw_train + ai_train
+    val_imgs = raw_val + ai_val
+    test_imgs = raw_test + ai_test
+
+    random.shuffle(train_imgs)
+    random.shuffle(val_imgs)
+    random.shuffle(test_imgs)
 
     splits = {
         "train": train_imgs,
@@ -89,20 +104,30 @@ for cls in classes:
     }
 
     for split_name, split_imgs in splits.items():
+
         for idx, item in enumerate(split_imgs, start=1):
+
             img_path = item["path"]
             source_type = item["source"]
+
             extension = img_path.suffix.lower()
 
-            new_filename = f"{cls}_{source_type}_{split_name}_{idx:04d}{extension}"
+            new_filename = (
+                f"{cls}_{source_type}_{split_name}_{idx:04d}{extension}"
+            )
 
-            destination = OUTPUT_DIR / split_name / cls / new_filename
+            destination = (
+                OUTPUT_DIR /
+                split_name /
+                cls /
+                new_filename
+            )
 
             shutil.copy2(img_path, destination)
 
-    print(f"Total Images: {total}")
-    print(f"Train: {len(train_imgs)}")
-    print(f"Val: {len(val_imgs)}")
-    print(f"Test: {len(test_imgs)}")
-
-print("\nDataset splitting complete.")
+    print(f"Raw Images : {len(raw_images)}")
+    print(f"AI Images  : {len(ai_images)}")
+    print(f"Total      : {len(raw_images) + len(ai_images)}")
+    print(f"Train      : {len(train_imgs)}")
+    print(f"Validation : {len(val_imgs)}")
+    print(f"Test       : {len(test_imgs)}")

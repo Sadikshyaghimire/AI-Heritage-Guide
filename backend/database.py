@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 from datetime import datetime
 
-DB_PATH = Path("backend/heritage_guide.db")
+DB_PATH = Path("heritage_guide.db")
 
 
 def get_connection():

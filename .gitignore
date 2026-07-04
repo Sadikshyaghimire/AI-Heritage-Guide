@@ -5,3 +5,5 @@ backend/uploads/
 __pycache__/
 *.pyc
 OLD WORKS + Proposal /
+backend/heritage_guide.db
+frontend/node_modules/

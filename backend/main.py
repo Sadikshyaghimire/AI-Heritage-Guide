@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from PIL import Image
 
-from backend.database import init_db, get_connection, now
+from database import init_db, get_connection, now
 
 
 app = FastAPI(title="Heritage Landmark Recognition API")
@@ -26,10 +26,9 @@ app.add_middleware(
 
 init_db()
 
-MODEL_PATH = Path("backend/models/heritage_efficientnet.keras")
-CLASS_NAMES_PATH = Path("backend/models/class_names.json")
-HERITAGE_INFO_PATH = Path("backend/data/heritage_info.json")
-
+MODEL_PATH = Path("models/heritage_efficientnet.keras")
+CLASS_NAMES_PATH = Path("models/class_names.json")
+HERITAGE_INFO_PATH = Path("data/heritage_info.json")
 IMG_SIZE = 224
 CONFIDENCE_THRESHOLD = 0.60
 
@@ -161,7 +160,7 @@ async def predict(
     file: UploadFile = File(...),
     user_email: str | None = Form(None)
 ):
-    upload_dir = Path("backend/uploads")
+    upload_dir = Path("/uploads")
     upload_dir.mkdir(parents=True, exist_ok=True)
 
     file_path = upload_dir / file.filename
