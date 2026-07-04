@@ -163,7 +163,10 @@ async def predict(
     file: UploadFile = File(...),
     user_email: str | None = Form(None)
 ):
-    upload_dir = Path("/uploads")
+    
+    BASE_DIR = Path(__file__).resolve().parent
+
+    upload_dir = Path("uploads")
     upload_dir.mkdir(parents=True, exist_ok=True)
 
     file_path = upload_dir / file.filename
